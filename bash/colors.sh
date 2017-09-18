@@ -7,3 +7,7 @@ animals=([red]="fox" [green]="frog" [blue]="fish")
 echo "the colours are ${colours[*]}"
 echo "the animals array contains ${animals[red]}, ${animals[green]}, ${animals[blue]}"
 echo "the animals ${animals[*]} are in the array"
+
+num=0
+
+echo Number $num refers to a ${colours[$num]} ${animals[colours(&num)]}
